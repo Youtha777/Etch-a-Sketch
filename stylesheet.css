@@ -1,3 +1,5 @@
+
+/*Adding flex to the body - direct parent of message and container*/
 body{
   display: flex;
   flex-direction: column;
@@ -8,17 +10,19 @@ body{
   gap: 10px;
 }
 
+/* child of body */
 #message{
   display: flex;
   flex-direction: column;
 }
 
+/* child of body - parent of square class */
 #container{
   display: flex;
   flex-wrap: wrap; 
 }
 
-
+/* child of container */
 .square{
   width: 50px;
   height: 50px;
